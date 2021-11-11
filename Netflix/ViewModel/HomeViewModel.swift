@@ -9,6 +9,7 @@ import Foundation
 
 class HomeViewModel: ObservableObject {
     
+    /// String == category
     @Published var movies: [String: [Movie]] = [:]
     
     public var allCategories: [String] {
