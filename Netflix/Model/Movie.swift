@@ -11,4 +11,5 @@ struct Movie: Identifiable, Hashable {
     var id: String
     var name: String
     var thumbnailURL: URL
+    var categories: [String]
 }
